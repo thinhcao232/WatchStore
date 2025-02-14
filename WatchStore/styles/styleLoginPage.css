@@ -1,0 +1,74 @@
+﻿/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px); /* Điều chỉnh chiều cao để gần header và footer */
+    padding-top: 10px; /* Thêm một chút khoảng cách trên và dưới */
+    padding-bottom: 10px;
+}
+
+.login-panel {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+    .login-panel h2 {
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+    .login-panel label {
+        display: block;
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    .login-panel input[type="text"],
+    .login-panel input[type="password"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .login-panel .radio-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size:15px;
+    }
+
+        .login-panel .radio-container input[type="radio"] {
+            margin-right: 10px;
+        }
+
+    .login-panel .button-container {
+        text-align: center;
+    }
+
+    .login-panel button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .login-panel button:hover {
+            background-color: #0056b3;
+        }

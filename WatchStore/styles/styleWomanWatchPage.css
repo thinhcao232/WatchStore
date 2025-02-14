@@ -1,0 +1,47 @@
+﻿/* General link styles */
+.link {
+    color: red;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* DataList item styles */
+.datalist-item {
+    text-align: center;
+    width: 270px;
+    height: 350px;
+    position: relative;
+}
+
+    .datalist-item img.sale-icon {
+        position: absolute;
+        width: 50px;
+    }
+
+    .datalist-item .discount-label {
+        position: absolute;
+        height: 50px;
+        line-height: 50px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .datalist-item .item-image {
+        width: 100%;
+        height: 280px;
+    }
+
+    .datalist-item .item-name {
+        margin: 0 30px;
+        color: red;
+        text-decoration: none;
+        font-underline: false;
+    }
+
+    .datalist-item .original-price {
+        text-decoration: line-through;
+    }
+
+    .datalist-item .discounted-price {
+        font-weight: bold;
+    }
